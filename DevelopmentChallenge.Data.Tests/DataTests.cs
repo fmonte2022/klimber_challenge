@@ -31,7 +31,7 @@ namespace DevelopmentChallenge.Data.Tests
 
             var resumen = GeometricForm.Print(squads, Language.SPANISH);
 
-            Assert.AreEqual("<h1>Reporte de Formas</h1>1 Cuadrado | Area 25 | Perimetro 20 <br/>TOTAL:<br/>1 formas Perimetro 20 Area 25", resumen);
+            Assert.AreEqual("<h1>Reporte de Formas</h1>1 Cuadrado | Area 25 | Perimetro 20 <br/>TOTAL:<br/>1 forma Perimetro 20 Area 25", resumen);
         }
 
         [TestCase]
@@ -104,7 +104,7 @@ namespace DevelopmentChallenge.Data.Tests
             var resume = GeometricForm.Print(forms, Language.SPANISH);
 
             Assert.AreEqual(
-                "<h1>Reporte de Formas</h1>1 Rectángulo | Area 50 | Perimetro 30 <br/>TOTAL:<br/>1 formas Perimetro 30 Area 50",
+                "<h1>Reporte de Formas</h1>1 Rectángulo | Area 50 | Perimetro 30 <br/>TOTAL:<br/>1 forma Perimetro 30 Area 50",
                 resume);
         }
 
@@ -120,7 +120,7 @@ namespace DevelopmentChallenge.Data.Tests
             var resume = GeometricForm.Print(forms, Language.ENGLISH);
 
             Assert.AreEqual(
-                "<h1>Shapes report</h1>1 Trapeze | Area 50 | Perimeter 100 <br/>TOTAL:<br/>1 shapes Perimeter 100 Area 50",
+                "<h1>Shapes report</h1>1 Trapeze | Area 50 | Perimeter 100 <br/>TOTAL:<br/>1 shape Perimeter 100 Area 50",
                 resume);
         }
 
