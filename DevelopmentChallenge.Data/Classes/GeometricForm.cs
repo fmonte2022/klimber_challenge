@@ -64,7 +64,7 @@ namespace DevelopmentChallenge.Data.Classes
 
                 // FOOTER
                 sb.Append(UtilResources.GetValue("TOTAL", language));
-                sb.Append(UtilResources.GetValueFormat("FORM_TITLE", language, forms.Count));
+                sb.Append(UtilResources.GetValueFormat(forms.Count > 1 ? "FORM_TITLE" : "FORM_SINGLE_TITLE", language, forms.Count));
                 sb.Append(UtilResources.GetValueFormat("PERIMETER_TITLE", language, (totalPerimeter).ToString("#.##")));
                 sb.Append(UtilResources.GetValueFormat("AREA_TITLE", language, (totalArea).ToString("#.##")));
             }
