@@ -21,3 +21,5 @@ Se ha creado diferentes recursos RESX para cada uno de los idiomas y a traves de
 <b>Nota:</b> Se aplico el patrón Singleton para obtener el ResourceManager durante la ejecución del test.
 
 <br>
+
+[toc]: #contenido "Ir a la tabla de contenidos"
