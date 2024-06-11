@@ -123,6 +123,9 @@
   <data name="EMPTY_LIST" xml:space="preserve">
     <value>&lt;h1&gt;Elenco vuoto di forme!&lt;/h1&gt;</value>
   </data>
+  <data name="FORM_SINGLE_TITLE" xml:space="preserve">
+    <value>{0} forma </value>
+  </data>
   <data name="FORM_TITLE" xml:space="preserve">
     <value>{0} forme </value>
   </data>
